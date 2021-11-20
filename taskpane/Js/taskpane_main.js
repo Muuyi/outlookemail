@@ -73,7 +73,8 @@ function set_signature(str)
 {
   Office.context.mailbox.item.body.setSignatureAsync
   (
-	str,
+	// str,
+	'This is my signature',
 
 	{
 		coercionType: Office.CoercionType.Html
